@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <div className="border-b-2 border-gray-100 ">
-      <div className="px-16 py-7 justify-between items-center flex">
+      <div className="p-4 md:px-16 md:py-7 justify-between items-center flex">
       <Link to='/'>
         <img
           src="https://findvectorlogo.com/wp-content/uploads/2019/03/myntra-vector-logo.png"
@@ -19,7 +19,7 @@ function Header() {
           alt="logo"
         /></Link>
 
-        <ul className="flex gap-7 cursor-pointer text-md font-medium">
+        <ul className="hidden lg:flex gap-7 cursor-pointer text-md font-medium">
           <li>Men</li>
           <li>Women</li>
           <li>Kids</li>
@@ -28,7 +28,7 @@ function Header() {
           <li>Studio</li>
         </ul>
 
-        <div className="flex bg-gray-50 items-center w-[33%]  p-2 rounded-md">
+        <div className=" hidden lg:flex xl:flex  bg-gray-50  items-center w-[33%]  p-2 rounded-md">
           <span className="mr-3">
 
             <AiOutlineSearch onClick={() => {
