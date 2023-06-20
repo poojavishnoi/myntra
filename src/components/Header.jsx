@@ -1,9 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import { AiOutlineSearch, AiOutlineUser, AiOutlineHeart } from "react-icons/ai";
 import { BsBag } from "react-icons/bs";
 import { Link } from "react-router-dom";
-
+import { useDispatch } from "react-redux";
+import { setSearchFilter } from "../store/actions/actions";
 function Header() {
+
+  const dispatch = useDispatch();
+  const [query, setQuery] = useState('')
+
   return (
     <div className="border-b-2 border-gray-100 ">
       <div className="px-16 py-7 justify-between items-center flex">
@@ -25,12 +30,16 @@ function Header() {
 
         <div className="flex bg-gray-50 items-center w-[33%]  p-2 rounded-md">
           <span className="mr-3">
-            <AiOutlineSearch />
+
+            <AiOutlineSearch onClick={() => {
+              dispatch(setSearchFilter(query))
+            }} />
           </span>
           <input
             type="text"
             className="bg-gray-50 w-full"
             placeholder="search for products, brand and more"
+            onChange={(e) => setQuery(e.target.value)}
           />
         </div>
         <ul className="flex gap-5 cursor-pointer">
