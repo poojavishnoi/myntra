@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='bg-zinc-900w text-white p-4 md:p-20 '>
+    <div className='bg-zinc-900 text-white p-4 md:p-20 '>
     <div className="flex justify-between gap-4  md:gap-40">
       <div className="">
         <p>ONLINE SHOPPING</p>
