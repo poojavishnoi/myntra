@@ -28,7 +28,7 @@ function Home() {
               alt="clothing"
               className="rounded-md"
             />
-            <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
+            <div className=" rounded-b-md absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
               <p className="text-white md:text-2xl font-bold">Women's Clothing</p>
             </div>
           </Link>
@@ -38,7 +38,7 @@ function Home() {
               src="https://img.freepik.com/free-photo/full-length-portrait-handsome-serious-man_171337-17388.jpg?size=626&ext=jpg"
               alt="clothing"
             />
-            <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
+            <div className="absolute bottom-0 w-full rounded-b-md h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
               <p className="text-white md:text-2xl font-bold">Men's Clothing</p>
             </div>
           </Link>
@@ -48,7 +48,7 @@ function Home() {
               src="https://img.freepik.com/free-photo/low-angle-little-boy-posing_23-2148445671.jpg?size=626&ext=jpg"
               alt="clothing"
             />
-            <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
+            <div className=" rounded-b-md absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
               <p className="text-white md:text-2xl font-bold">Kid's Clothing</p>
             
           </div>
@@ -59,7 +59,7 @@ function Home() {
               src="https://img.freepik.com/free-photo/rack-full-shoes-modern-house_1268-14356.jpg?size=626&ext=jpg"
               alt="footwear"
             />
-            <div className="absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
+            <div className=" rounded-b-md absolute bottom-0 w-full h-16 bg-gradient-to-t from-gray-800 to-transparent  flex justify-center items-center">
               <p className="text-white md:text-2xl font-bold">Foot Wear</p>
             </div>
             </Link>
