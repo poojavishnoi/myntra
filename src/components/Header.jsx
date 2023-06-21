@@ -42,16 +42,16 @@ function Header() {
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
-        <ul className="flex gap-5  text-sm cursor-pointer items-center">
-          <li className="p-1 flex-col justify-center items-center">
+        <ul className="flex gap-5 text-center text-sm  items-center">
+          <li className="p-1 flex-col justify-center cursor-pointer items-center">
             <AiOutlineUser className="md:text-xl " />
             profile
           </li>
-          <li className="p-1 flex-col  text-smjustify-center items-center">
+          <li className="p-1 flex-col  text-sm  justify-center cursor-pointer items-center">
             <AiOutlineHeart className="md:text-xl" />
             Wishlist
           </li>
-          <li className="p-1  text-smflex-col justify-center items-center">
+          <li className="p-1  text-smflex-col justify-center cursor-pointer items-center">
             <BsBag className="md:text-xl" />
             Bag
           </li>
