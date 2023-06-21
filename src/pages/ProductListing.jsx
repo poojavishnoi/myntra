@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import {data} from '..//data.js'
 import { useNavigate, useLocation} from 'react-router'
 import Filter from '../components/Filter.jsx'
@@ -6,6 +6,10 @@ import GetFinalList from '../utils/finalList.js'
 import { useParams } from 'react-router-dom'
 function ProductListing() {
 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const {category} = useParams();
 
   const getInitialList = (category) => {
