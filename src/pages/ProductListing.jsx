@@ -1,12 +1,29 @@
 import React from 'react'
 import {data} from '..//data.js'
-import { useNavigate } from 'react-router'
+import { useNavigate, useLocation} from 'react-router'
 import Filter from '../components/Filter.jsx'
 import GetFinalList from '../utils/finalList.js'
-
+import { useParams } from 'react-router-dom'
 function ProductListing() {
 
-  const finalProductList = GetFinalList(data);
+  const {category} = useParams();
+
+  const getInitialList = (category) => {
+    if(category === 'all'){
+      return data;
+    }else if(category === "women"){
+      return data.filter((item) => item.type === category);
+    }else if(category === "men"){
+      return data.filter((item) => item.type === category);
+    }else if(category === "kids"){
+      return data.filter((item) => item.type === category);
+    }else if(category === "footwear"){
+      return data.filter((item) => item.type === category);
+    }
+  }
+
+  const initialList = getInitialList(category);
+  const finalProductList = GetFinalList(initialList);
   const navigate = useNavigate();
   
   return ( 
@@ -19,7 +36,7 @@ function ProductListing() {
             <div className=' m-4 transition duration-150 ease-out hover:ease-in hover:scale-105 cursor-pointer' key={item._id} onClick={() => {
               navigate(`/product/${item._id}`)
             }}>
-              <img src={item.img} alt="product_image" className='w-[10rem] h-[15rem] rounded-t-md md:w-[20rem] md:h-[30rem] object-cover'/>
+              <img src={item.img} alt="product_image" className='w-[13rem] h-[20rem] rounded-md md:w-[20rem] md:h-[30rem] object-cover'/>
               <div className="p-1"></div>
               <p className='font-medium text-xl '>{item.name}</p>
               <p>{item.product}</p>

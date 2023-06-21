@@ -1,27 +1,30 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { setProductFilter, setPriceFilter, setSortFilter,setReset } from '../store/actions/actions'
-
+import { useParams } from 'react-router-dom'
 
 export default function Filter() {
 
+  const {category} = useParams();
+
+  console.log(category);
   const sortBy = useSelector(state => state.sortBy)
   const product = useSelector(state => state.product)
   const price = useSelector(state => state.price)
   const dispatch = useDispatch()
 
   return (
-    <div className="w-full p-2 ">
-      <h2 className='text-xl font-medium'>Filters</h2>
+    <div className=" p-2  md:p-14 w-[60rem] md:w-full">
+      <h2 className='md:text-xl font-medium'>Filters</h2>
 
       <div className="p-2 mt-2">
-        <h3 className="text-lg">Price: {price}</h3>
+        <h3 className="md:text-lg">Price: {price}</h3>
         <input
           type="range"
           min="400"
           max="2000"
           value={price}
-          className="slider"
+          className="w-full"
           step="100"
           onChange={(e) =>
             dispatch(setPriceFilter(e.target.value))
@@ -29,8 +32,10 @@ export default function Filter() {
         />
       </div>
 
+
+{ category === "women" || category === "all" ?  
       <div className="p-2">
-        <h3 className='text-lg'>Category</h3>
+        <h3 className='md:text-lg'>Category</h3>
         <input
           type="checkbox"
           id="tshirt"
@@ -65,10 +70,10 @@ export default function Filter() {
           }
         />
         <span>Dress</span>
-      </div>
-
+      </div> : ""
+}
       <div className="p-2">
-        <h3 className='text-lg'>Sort by</h3>
+        <h3 className='md:text-lg'>Sort by</h3>
         <input
           type="radio"
           name="sort"
@@ -78,7 +83,7 @@ export default function Filter() {
             dispatch(setSortFilter("LOW_TO_HIGH" ))
           }
         />
-        <span>Price - Low to High</span>
+        <span className=''>Price - Low to High</span>
         <br />
         <input
           type="radio"
