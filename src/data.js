@@ -1,7 +1,7 @@
 export const data =[
   {
     "_id": 1,
-    "name": "product 1",
+    "name": "White Tshirt",
     "product": "Tshirt",
     "rating" : 4,
     "quantity" : 1,
@@ -12,7 +12,7 @@ export const data =[
   },
   {
     "_id": 2,
-    "name": "product 2",
+    "name": "White Tshirt",
     "product": "Tshirt",
     "rating" : 2,
     "quantity" : 1,
@@ -23,7 +23,7 @@ export const data =[
   },
   {
     "_id": 3,
-    "name": "product 3",
+    "name": "Off white Tshirt",
     "product": "Tshirt",
     "rating" : 3,
     "quantity" : 1,
@@ -34,8 +34,8 @@ export const data =[
   },
   {
     "_id": 4,
-    "name": "product 4",
-    "product": "Tshirt",
+    "name": "White Shirt",
+    "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
     "type": "women",
@@ -45,7 +45,7 @@ export const data =[
   },
   {
     "_id":  5,
-    "name": "product 5",
+    "name": "White Tshirt",
     "product": "Tshirt",
     "rating" : 2,
     "quantity" : 1,
@@ -56,8 +56,8 @@ export const data =[
   },
   {
     "_id":  6,
-    "name": "product 6",
-    "product": "Tshirt",
+    "name": "White Shirt",
+    "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
     "type": "women",
@@ -67,7 +67,7 @@ export const data =[
   },
   {
     "_id":  7,
-    "name": "product 7",
+    "name": "White Tshirt",
     "product": "Tshirt",
     "rating" : 3,
     "quantity" : 1,
@@ -78,8 +78,8 @@ export const data =[
   },
   {
     "_id":  8,
-    "name": "product 8",
-    "product": "Tshirt",
+    "name": "White Shirt",
+    "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
     "type": "women",
@@ -89,8 +89,8 @@ export const data =[
   },
   {
     "_id": 9,
-    "name": "product 9",
-    "product": "Tshirt",
+    "name": "White Shirt",
+    "product": "Shirt",
     "rating" : 3,
     "quantity" : 1,
     "type": "women",
@@ -100,8 +100,8 @@ export const data =[
   },
   {
     "_id":  10,
-    "name": "product 10",
-    "product": "Tshirt",
+    "name": "White Shirt",
+    "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
     "type": "women",
@@ -111,7 +111,7 @@ export const data =[
   },
   {
     "_id":  11,
-    "name": "product 11",
+    "name": "White Tshirt",
     "product": "Tshirt",
     "rating" : 4,
     "quantity" : 1,
@@ -122,7 +122,7 @@ export const data =[
   },
   {
     "_id": 12,
-    "name": "Dress 1",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 4,
     "quantity" : 1,
@@ -132,7 +132,7 @@ export const data =[
   },
   {
     "_id": 13,
-    "name": "Dress 2",
+    "name": "Red Dress",
     "product": "Dress",
     "rating" : 3,
     "quantity" : 1,
@@ -143,7 +143,7 @@ export const data =[
   },
   {
     "_id": 14,
-    "name": "Dress 3",
+    "name": "White Dress",
     "product": "Dress",
     "rating" : 5,
     "quantity" : 1,
@@ -154,7 +154,7 @@ export const data =[
   },
   {
     "_id": 15,
-    "name": "Dress 4",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 3,
     "quantity" : 1,
@@ -165,7 +165,7 @@ export const data =[
   },
   {
     "_id": 16,
-    "name": "Dress 5",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 5,
     "quantity" : 1,
@@ -176,7 +176,7 @@ export const data =[
   },
   {
     "_id": 17,
-    "name": "Dress 6",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 3,
     "quantity" : 1,
@@ -187,7 +187,7 @@ export const data =[
   },
   {
     "_id": 18,
-    "name": "Dress 7",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 4,
     "quantity" : 1,
@@ -198,7 +198,7 @@ export const data =[
   },
   {
     "_id": 19,
-    "name": "Dress 8",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 3,
     "quantity" : 1,
@@ -209,7 +209,7 @@ export const data =[
   },
   {
     "_id": 20,
-    "name": "Dress 9",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 5,
     "quantity" : 1,
@@ -220,7 +220,7 @@ export const data =[
   },
   {
     "_id": 21,
-    "name": "Dress 10",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 4,
     "quantity" : 1,
@@ -231,7 +231,7 @@ export const data =[
   },
   {
     "_id": 22,
-    "name": "Dress 11",
+    "name": "Floral Dress",
     "product": "Dress",
     "rating" : 3,
     "quantity" : 1,
@@ -242,7 +242,7 @@ export const data =[
   },
   {
     "_id": 23,
-    "name": "Shirt 1",
+    "name": "White Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -253,7 +253,7 @@ export const data =[
   },
   {
     "_id": 24,
-    "name": "Shirt 2",
+    "name": "Yellow Shirt",
     "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
@@ -264,7 +264,7 @@ export const data =[
   },
   {
     "_id": 25,
-    "name": "Shirt 3",
+    "name": "Lined Shirt",
     "product": "Shirt",
     "rating" : 3,
     "quantity" : 1,
@@ -275,7 +275,7 @@ export const data =[
   },
   {
     "_id": 26,
-    "name": "Shirt 4",
+    "name": "Pink Shirt ",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -285,7 +285,7 @@ export const data =[
   },
   {
     "_id": 27,
-    "name": "Shirt 5",
+    "name": "Checked Shirt",
     "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
@@ -295,7 +295,7 @@ export const data =[
   },
   {
     "_id": 28,
-    "name": "Shirt 6",
+    "name": "Pink Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -305,7 +305,7 @@ export const data =[
   },
   {
     "_id": 29,
-    "name": "Shirt 7",
+    "name": "Off-white Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -315,7 +315,7 @@ export const data =[
   },
   {
     "_id": 30,
-    "name": "Shirt 8",
+    "name": "Olive Shirt",
     "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
@@ -326,7 +326,7 @@ export const data =[
   },
   {
     "_id": 31,
-    "name": "Shirt 9",
+    "name": "Floral Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -336,7 +336,7 @@ export const data =[
   },
   {
     "_id": 32,
-    "name": "Shirt 10",
+    "name": "Checked Shirt",
     "product": "Shirt",
     "rating" : 3,
     "quantity" : 1,
@@ -346,7 +346,7 @@ export const data =[
   },
   {
     "_id": 33,
-    "name": "Shirt 11",
+    "name": "Pink Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -356,7 +356,7 @@ export const data =[
   },
   {
     "_id": 35,
-    "name": "Shirt 12",
+    "name": "Checked Shirt",
     "product": "Shirt",
     "rating" : 5,
     "quantity" : 1,
@@ -366,7 +366,7 @@ export const data =[
   },
   {
     "_id": 36,
-    "name": "Shirt 12",
+    "name": "Grey Shirt",
     "product": "Shirt",
     "rating" : 3,
     "quantity" : 1,
@@ -376,17 +376,17 @@ export const data =[
   },
   {
     "_id": 37,
-    "name": "Shirt 13",
+    "name": "Blue Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
-        "type": "women",
+        "type": "kids",
     "img":"https://cdn.pixabay.com/photo/2019/07/09/08/03/boy-4326461_1280.jpg",
     "price": 600.0
   },
   {
     "_id": 38,
-    "name": "Kids Wear 1",
+    "name": "White Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -396,7 +396,7 @@ export const data =[
   },
   {
     "_id": 39,
-    "name": "Kids wear 2",
+    "name": "Blue Jacket",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -406,8 +406,8 @@ export const data =[
   },
   {
     "_id": 40,
-    "name": "Kids wear 3",
-    "product": "Shirt",
+    "name": "White Tshirt",
+    "product": "Tshirt",
     "rating" : 4,
     "quantity" : 1,
         "type": "kids",
@@ -416,7 +416,7 @@ export const data =[
   },
   {
     "_id": 41,
-    "name": "Kids wear 4",
+    "name": "Blue checked shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -426,8 +426,8 @@ export const data =[
   },
   {
     "_id": 42,
-    "name": "Kids wear 5",
-    "product": "Shirt",
+    "name": "Lined Dress",
+    "product": "Dress",
     "rating" : 4,
     "quantity" : 1,
         "type": "kids",
@@ -436,8 +436,8 @@ export const data =[
   },
   {
     "_id": 43,
-    "name": "Kids wear 6",
-    "product": "Shirt",
+    "name": "Orange Dress",
+    "product": "Dress",
     "rating" : 4,
     "quantity" : 1,
         "type": "kids",
@@ -446,8 +446,8 @@ export const data =[
   },
   {
     "_id": 44,
-    "name": "Kids wear 7",
-    "product": "Shirt",
+    "name": "Denim Dress",
+    "product": "Dress",
     "rating" : 4,
     "quantity" : 1,
         "type": "kids",
@@ -456,7 +456,7 @@ export const data =[
   },
   {
     "_id": 45,
-    "name": "Kids wear 8",
+    "name": " Denim Shirt",
     "product": "Shirt",
     "rating" : 4,
     "quantity" : 1,
@@ -466,8 +466,8 @@ export const data =[
   },
   {
     "_id": 46,
-    "name": "Foot wear 1",
-    "product": "Shirt",
+    "name": "Brown Shoes",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -476,8 +476,8 @@ export const data =[
   },
   {
     "_id": 47,
-    "name": "Foot wear 2",
-    "product": "Shirt",
+    "name": "Leather Shoes",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -486,8 +486,8 @@ export const data =[
   },
   {
     "_id": 48,
-    "name": "Foot wear 3",
-    "product": "Shirt",
+    "name": "Orange Shoes",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -496,8 +496,8 @@ export const data =[
   },
   {
     "_id": 49,
-    "name": "Foot wear 4",
-    "product": "Shirt",
+    "name": "Leather Boots",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -506,8 +506,8 @@ export const data =[
   },
   {
     "_id": 50,
-    "name": "Foot wear 5",
-    "product": "Shirt",
+    "name": "",
+    "product": "Work wedge pumps",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -516,8 +516,8 @@ export const data =[
   },
   {
     "_id": 51,
-    "name": "Foot wear 6",
-    "product": "Shirt",
+    "name": "Leather Shoes",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -526,8 +526,8 @@ export const data =[
   },
   {
     "_id": 52,
-    "name": "Foot wear 7",
-    "product": "Shirt",
+    "name": "Olive Shoes",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
@@ -536,8 +536,8 @@ export const data =[
   },
   {
     "_id": 53,
-    "name": "Foot wear 8",
-    "product": "Shirt",
+    "name": "Red Shoes",
+    "product": "Footwear",
     "rating" : 4,
     "quantity" : 1,
         "type": "footwear",
